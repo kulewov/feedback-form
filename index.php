@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="ru-ru">
-<head>
-    <meta charset="UTF-8">
-    <script src="assets/js/script.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/style/style.min.css">
-    <title>Форма</title>
-</head>
-<body>
 <div id="feed_form" class="wrapper">
     <div class="feed-content">
         <div class="inners">
@@ -54,5 +45,3 @@
         </div>
     </div>
 </div>
-</body>
-</html>
