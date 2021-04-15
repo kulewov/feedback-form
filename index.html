@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+<head>
+    <meta charset="UTF-8">
+    <script src="assets/js/script.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style/style.min.css">
+    <title>Форма</title>
+</head>
+<body>
+<div id="feed_form" class="wrapper">
+    <div class="feed-content">
+        <div class="inners">
+            <form class="form form-inputs js-login-email-form" method="post" data-require-message="Поле обязательно к заполнению">
+                <div class="input-container bg-orange active">
+                    <label for="user_name" class="message">Введите ваше имя</label>
+                    <div class="input-inner">
+                        <input id="user_name" name="name" type="text" class="feed-inner" data-required="required">
+                    </div>
+                </div>
+                <div class="input-container bg-aqua collapse">
+                    <label for="user_email" class="message">Введите ваш email</label>
+                    <div class="input-inner">
+                        <input id="user_email" name="email" type="text" class="feed-inner" data-required="required">
+                    </div>
+                </div>
+                <div class="input-container bg-yellow collapse">
+                    <label for="user_phone" class="message">Введите ваш телефон</label>
+                    <div class="input-inner">
+                        <input id="user_phone" name="phone" type="text" class="feed-inner js-feed-phone" data-required="required">
+                    </div>
+                </div>
+                <div class="input-container bg-blue collapse">
+                    <label for="date_birth" class="message">Введите ваше дату рождения</label>
+                    <div class="input-inner">
+                        <input name="date" type="text" id="date_birth" class="feed-inner" readonly="readonly" size="10" data-required="required">
+                    </div>
+                </div>
+                <div class="input-container bg-green collapse">
+                    <label for="question" class="message">Введите ваш вопрос</label>
+                    <div class="input-inner">
+                        <textarea id="question" name="question" class="feed-inner" data-required="required"></textarea>
+                    </div>
+                </div>
+                <div class="input-container bg-rainbow collapse">
+                    <div class="input-inner">
+                        <input type="submit" value="Отправить" class="feed-inner submit-button filled-green">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="nav-container">
+            <div class="nav_arrow hidden prev"></div>
+            <div class="nav_arrow next"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
